@@ -1,0 +1,44 @@
+.map {
+  display: flex;
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  width: 90%;
+  height: 90%;
+}
+
+path:hover,
+circle:hover {
+  stroke: #002868 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+}
+
+#modal-map-info {
+  display: none;
+  position: fixed;
+  z-index: 200;
+  top: 1%;
+  left: 1%;
+  width: 20%;
+  font-size: 1em;
+  background: white;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+
+#backdrop {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.econ-data {
+}
